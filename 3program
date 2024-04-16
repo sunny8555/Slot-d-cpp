@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int num1;
+	cout<<"enter a num";
+	cin>>num1;
+	int num2;
+	cout<<"enter a num";
+	cin>>num2;
+	int num3;
+	cout<<"enter anum";
+	cin>>num3;
+	float average=(num1+num2+num3)/3;
+	cout<<"average"<<average<<endl;
+	return 0;
+	
+}
