@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int num1,num2;
+	cout<<"enter two digits";
+	cin>>num1;
+	cout<<"enter second digit";
+	cin>>num2;
+	if(num1==num2){
+		cout<<num1<<"and "<<num2<<"are equal"<<endl;}
+	else{
+		cout<<"not equal"<<endl;}
+		
+}
