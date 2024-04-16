@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num1, num2;
+
+    // Read two integers from the user
+    cout << "Enter the first integer: ";
+    cin >> num1;
+
+    cout << "Enter the second integer: ";
+    cin >> num2;
+
+    // Perform addition
+    cout << "Addition: " << num1 + num2 << endl;
+
+    // Perform subtraction
+    cout << "Subtraction: " << num1 - num2 << endl;
+
+    // Perform multiplication
+    cout << "Multiplication: " << num1 * num2 << endl;
+
+    // Perform division
+    if (num2 != 0) {
+        cout << "Division: " << static_cast<double>(num1) / num2 << endl;
+    } else {
+        cout << "Division by zero is undefined." << endl;
+    }
+
+    // Perform modulo
+    if (num2 != 0) {
+        cout << "Modulo: " << num1 % num2 << endl;
+    } else {
+        cout << "Modulo by zero is undefined." << endl;
+    }
+
+    return 0;
+}
