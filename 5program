@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+	float x,y;
+	cout<<"enter x: ";
+	cin>>x;
+	cout<<"enter y: ";
+	cin>>y;
+	cout<<"addition: "<<x+y<<"\n";
+	cout<<"subtraction: "<<x-y<<"\n";
+	cout<<"multiplication: "<<x*y<<"\n";
+	cout<<"division: "<<x/y<<"\n";
+	cout<<"modulo: "<<x%y<<"\n";
+	return 0;
+}
